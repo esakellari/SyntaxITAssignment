@@ -1,0 +1,19 @@
+public class Pairs {
+  private final int movie1;
+  private final int movie2;
+
+  public Pairs(int i, int j) {
+
+    movie1 = i;
+    movie2 = j;
+
+  }
+
+  public int getMovie1() {
+    return movie1;
+  }
+
+  public int getMovie2() {
+    return movie2;
+  }
+}
