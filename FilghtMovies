@@ -1,0 +1,15 @@
+import java.util.Arrays;
+
+public class FilghtMovies {
+  public static void main(String[] args) {
+
+    //args[0] = flight duration
+    int[] movies = {90, 85, 75, 60, 120, 150, 125};
+
+    MoviesSuggestion moviesSuggestion = new MoviesSuggestion();
+
+    System.out.println(
+      Arrays.toString(moviesSuggestion.suggest(Integer.parseInt(args[0]), movies)));
+  }
+
+}
